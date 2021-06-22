@@ -13,6 +13,14 @@ There are a few more parameters that can be configured but defaults should be fi
 
   ```npm start ( IN | OUT | INOUT )```
 
+## ✅ Test 
+
+  ```npm run test```
+
+Due to lack of PRE environment, check in and check out tests were not implemented. But API health, error and success mail notifications, etc are present.
+
+See ```src/test``` folder.
+
 ## Behaviour
 
 Default behaviour fits my personal circumstances. Because of this, the date is automatically obtained from the current date. Time is taken from ```CHECK_USER_IN_TIME``` and ```CHECK_USER_OUT_TIME``` params in .env file. This allows to perform a "deferred check in and out".
