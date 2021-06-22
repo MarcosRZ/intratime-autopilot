@@ -7,6 +7,9 @@
 ## 🔧 Configure
 Create a .env file and configure ```API_USER``` and ```API_PASS```. Also have a look at the ```CHECK_USER_IN_TIME``` and ```CHECK_USER_OUT_TIME``` params and change it to fit your work timing. Format must be ```HH:MM:SS``` for both.
 
+Mail notifications are DISABLED by default. Set ```ENABLE_MAIL_NOTIFICATIONS``` to 1 in .env and provide a valid config to enable this feature.
+An email will be sent on every run in order to inform about the results.
+
 There are a few more parameters that can be configured but defaults should be fine. A template .env file is included in the root folder. Just copy-paste it and modify.
 
 ## 🚀 Run 

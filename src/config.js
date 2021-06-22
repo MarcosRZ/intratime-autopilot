@@ -4,6 +4,7 @@ if (dotenv.config().error) {
   throw new Error('Unable to load dotenv');
 };
 
+export const ENABLE_MAIL_NOTIFICATIONS = process.env.ENABLE_MAIL_NOTIFICATIONS;
 export const MAIL_USER = process.env.MAIL_USER;
 export const MAIL_PASS = process.env.MAIL_PASS;
 export const API_URL = process.env.API_URL;
