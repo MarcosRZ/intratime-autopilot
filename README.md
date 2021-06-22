@@ -40,6 +40,6 @@ Calendar support is not implemented yet but I have strong plans to add a vacance
 ## Disclaimer
 This project is not well tested. It might not work properly for thousands of reasons. Use with caution and don't forget to doublecheck that everything is working, or you probably might run into problems. Of course, I'm not responsible about that.
 
-Contributions are welcome. Feel free to PR.
+Contributions are welcome. Feel free to open an issue or create a PR.
 
 **Enjoi.**
