@@ -35,11 +35,12 @@ try {
         console.log('CHECKING OUT...');
         const timestampOut = todayDayEnd();
         checkOut(timestampOut).then(_ => {
-          notify.notify({ type: actionParam, timestampOut })
+          notify.success({ type: actionParam, timestampOut })
           console.log(`CHECK OUT Successfull`);
         });
       });
     break;
+    
     default:
       console.log(`USAGE: node main ( IN | OUT | INOUT )`)
   }
